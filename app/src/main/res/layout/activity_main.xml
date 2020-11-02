@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#28282b"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/p1score"
+                android:layout_width="80pt"
+                android:layout_height="20pt"
+                android:layout_margin="5pt"
+                android:background="#ffffff"
+                android:text="Player 1: 0" />
+
+            <Button
+                android:id="@+id/p2score"
+                android:layout_width="80pt"
+                android:layout_height="20pt"
+                android:layout_margin="5pt"
+                android:background="#ffffff"
+                android:text="Player 1: 0"  />
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#28282b"
+                 />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                android:layout_margin="2pt"
+                android:background="@drawable/bg"
+                android:onClick="buttonClicked" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                android:layout_margin="2pt"
+                android:background="@drawable/bg"
+                android:onClick="buttonClicked" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                android:layout_margin="2pt"
+                android:background="@drawable/bg"
+                android:onClick="buttonClicked" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                android:layout_margin="2pt"
+                android:background="@drawable/bg"
+                android:onClick="buttonClicked" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                android:layout_margin="2pt"
+                android:background="@drawable/bg"
+                android:onClick="buttonClicked" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                android:layout_margin="2pt"
+                android:background="@drawable/bg"
+                android:onClick="buttonClicked" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                android:layout_margin="2pt"
+                android:background="@drawable/bg"
+                android:onClick="buttonClicked" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                android:layout_margin="2pt"
+                android:background="@drawable/bg"
+                android:onClick="buttonClicked" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                android:layout_margin="2pt"
+                android:background="#323236"
+                android:onClick="buttonClicked" />
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/winnerbtn"
+                android:layout_width="150pt"
+                android:layout_height="25pt"
+                android:textSize="18sp"
+                android:background="#28282b" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/resetbtn"
+                android:layout_width="60pt"
+                android:layout_height="50pt"
+                android:background="#28282b"
+                android:onClick="resetGame" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#28282b"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#28282b"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#28282b"
+                android:text="Texew" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:text="By Pragathi Shetty" />
+
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
